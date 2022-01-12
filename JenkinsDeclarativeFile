@@ -33,7 +33,7 @@ steps{
 sh "mvn clean package"
 }
 }
-
+/*
 //Execute SonarQube Report
 stage('SonarQubeReport'){
 steps{
@@ -80,6 +80,7 @@ Regards,
 Mithun Technologies,
 99886037946''', subject: 'Build Over..', to: 'ankitapanda39@gmail.com'
 }
+*/
 }
 
 
